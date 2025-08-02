@@ -4,26 +4,34 @@
 ## Contents
 
 1. [Overview](#overview)
-2. [🚀 Features](#-features)
-3. [📁 Project Structure](#-project-structure)
-4. [🛠️ Installation](#-installation)
-5. [🔧 Configuration](#-configuration)
-6. [🛠️ Available Tools](#-available-tools)
+2. [⚙️ Architecture](#-architecture)
+3. [🚀 Features](#-features)
+4. [📁 Project Structure](#-project-structure)
+5. [🛠️ Installation](#-installation)
+6. [🔧 Configuration](#-configuration)
+7. [🛠️ Available Tools](#-available-tools)
     * [Calculator Tool](#calculator-tool)
     * [File Operations Tool](#file-operations-tool)
-7. [💻 Usage Examples](#-usage-examples)
+8. [💻 Usage Examples](#-usage-examples)
     * [Basic Interaction](#basic-interaction)
     * [Complex Calculations](#complex-calculations)
     * [File Operations](#file-operations)
-8. [🏗️ Architecture](#-architecture)
-9. [🧪 Testing](#-testing)
-10. [🐛 Troubleshooting](#-troubleshooting)
+9. [🏗️ Architecture](#-architecture)
+10. [🧪 Testing](#-testing)
+11. [🐛 Troubleshooting](#-troubleshooting)
     * [Common Issues](#common-issues)
 
 
 ## Overview
 
 A modular, extensible AI Agent implementation built from scratch using Python and OpenAI's API. This project demonstrates how to create a functional AI agent with tool integration, proper error handling, and clean architecture.
+
+<!-- TOC --><a name="-architecture"></a>
+## ⚙️ Architecture
+
+![System Arch](docs/system-arch.png)
+
+![DFD](docs/dfd.png)
 
 <!-- TOC --><a name="-features"></a>
 ## 🚀 Features
@@ -53,6 +61,7 @@ ai-agent-math-calculator/
 │   ├── file_operations.py  # File operations tool
 │   └── manager.py          # Tool manager
 ├── data/                   # Directory for file operations
+├── tests/                  # Unit and Integration Test cases
 ├── main.py                 # Main entry point
 ├── requirements.txt        # Python dependencies
 ├── setup.py               # Package setup
