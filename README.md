@@ -29,7 +29,7 @@ A modular, extensible AI Agent implementation built from scratch using Python an
 <!-- TOC --><a name="-architecture"></a>
 ## ⚙️ Architecture
 
-![System Arch](docs/system-arch.png)
+![System Arch](docs/system_arch.png)
 
 ![DFD](docs/dfd.png)
 
